@@ -54,6 +54,7 @@ librtklib_la_SOURCES = \
 ./src/streamsvr.c \
 ./src/tle.c
 
+libiers_la_FFLAGS = $(AM_FFLAGS) -ffixed-line-length-132
 libiers_la_SOURCES = \
 lib/iers/src/cal2jd.f \
 lib/iers/src/dat.f \
